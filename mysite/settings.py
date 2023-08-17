@@ -25,7 +25,7 @@ SECRET_KEY = '(cez*l^thn7m@**9rg0lpc@x#620zymalrcpups!xgd+e+!i0i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '.pythonanywhere.com', 'www.memozzang.com']
 
 
 # Application definition
